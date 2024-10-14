@@ -89,9 +89,32 @@ header {
 
 section {
 	background-color:white;
-	padding:10px;
 	margin-top:20px;
-	display: none;
+	display: flex;
+	div {
+		display: flex;
+		flex-direction: column;
+	}
+	img {
+		width:300px;
+		display: block;
+	}
+	h1,h2,p {
+		margin:0;
+	}
+	h1 {
+		font-size: 30px;
+		padding:20px;
+	}
+	P {
+		padding:0 20px;
+	}
+	a {
+		font-size:20px;width:100%;
+		width:100%;
+		padding:20px;
+		margin: auto 0 0;
+	}
 }
 
 form {
@@ -116,6 +139,13 @@ form {
 		flex-direction: column;
 		
 		img{
+			width: 100%;
+		}
+	}
+
+	section {
+		flex-direction: column-reverse;
+		img {
 			width: 100%;
 		}
 	}
