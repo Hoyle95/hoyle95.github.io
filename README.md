@@ -1,6 +1,4 @@
-# Portfolio website
+# hoyle95.github.io
+Root repository for github pages, A simple static website listing my contact information and projects I have worked on.
 
-Simple static website to serve as my portfolio, deployed on github pages.
-
-Check it out:
-[https://hoyle.dev/](https://hoyle.dev/)
+## Check it out with my new domain! [https://hoyle.dev/](https://hoyle.dev/)
