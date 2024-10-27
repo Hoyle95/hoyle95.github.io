@@ -15,7 +15,7 @@ function draw() {
     fill(0,0,0, 15);
     rect(0,0,width,height);
 
-    if (random(0,1) < 0.2 && numberOfParticles < 100) {
+    if (random(0,1) < 0.2 && numberOfParticles < (width/5)) {
         particles.push(new Particle(random(0,width),0));
         numberOfParticles++;
         console.log(numberOfParticles);
