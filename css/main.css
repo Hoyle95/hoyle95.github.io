@@ -92,7 +92,7 @@ html {
 
 			section {
 				background-color: #F0F0F0;
-				margin-top: 20px;
+				margin-top: 10px;
 				display: flex;
 
 				div {
@@ -145,10 +145,10 @@ p mark {
 }
 
 canvas {
-	position:fixed;
-	top:0;
-	left:0;
-	z-index:-1;
+	position:fixed !important;
+	top:0 !important;
+	left:0 !important;
+	z-index:-1 !important;
 	width:100% !important;
 	height:100% !important;
 }
